@@ -171,3 +171,12 @@ span{
     box-shadow: 0 0 1.6rem var(--main-color);
 
 }
+
+.services{
+    background: var(--snd-bg-color);
+}
+
+.services-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
